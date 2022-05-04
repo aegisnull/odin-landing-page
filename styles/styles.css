@@ -1,4 +1,24 @@
 .header {
   background-color: #1F2937;
+  height: 400px;
+}
+
+.header__menu-container {
+  display: flex;
+}
+
+.header__container_right {
+  display: flex;
+}
+
+.header__title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.header__text {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 /*# sourceMappingURL=styles.css.map */
