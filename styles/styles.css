@@ -1,6 +1,6 @@
 .header {
-  background-color: #1F2937;
-  height: 400px;
+  background-color: #1f2937;
+  height: 550px;
 }
 
 .header__menu-container {
@@ -14,11 +14,11 @@
 .header__title {
   font-size: 48px;
   font-weight: bolder;
-  color: #F9FAF8;
+  color: #f9faf8;
 }
 
 .header__text {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 /*# sourceMappingURL=styles.css.map */
