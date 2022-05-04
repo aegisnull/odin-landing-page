@@ -148,25 +148,39 @@
         background-color: #3882F6;
         color: white;
         border-radius: 12px;
-        width: 70%;
-        height: 130px;
+        width: 60%;
         margin: auto;
         display: flex;
+        justify-content: space-between;
+        padding: 40px 60px;
 
         &_left {
         }
         
         &_right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 
     &__title {
+        font-size: 24px;
+        font-weight: 500;
     }
 
     &__text {
+        line-height: 0;
     }
 
     &__button {
+        width: 130px;
+        height: 35px;
+        border: #E5E7EB solid 2px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
 
         &-text {
