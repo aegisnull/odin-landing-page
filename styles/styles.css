@@ -27,7 +27,7 @@
 }
 
 .header__main {
-  padding: 40px 17%;
+  padding: 100px 17%;
   display: flex;
   flex-direction: row;
 }
@@ -65,6 +65,29 @@
   font-weight: 900;
   color: #1F2937;
   padding: 20px;
+}
+
+.information__container {
+  padding: 30px 22% 50px 22%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information__card {
+  max-width: 170px;
+}
+
+.information__image {
+  width: 100%;
+  max-height: 170px;
+  border-radius: 12px;
+}
+
+.information__text {
+  text-align: center;
+  font-size: 18px;
+  font-family: 400;
+  color: #5D6570;
 }
 
 .footer {
