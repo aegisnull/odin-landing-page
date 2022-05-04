@@ -41,14 +41,17 @@
 
     &__main {
         padding: 40px 15%;
+        display: flex;
+        flex-direction: row;
     
 
         &_left {
             width: 50%;
+            
         }
 
         &_right {
-            width: 50%;
+            
         }
 }
 
