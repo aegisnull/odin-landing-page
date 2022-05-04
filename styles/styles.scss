@@ -5,64 +5,86 @@
 .header {
     background-color: #1F2937;
     height: 400px;
-}
+
 
     &__menu-container {
     display: flex;
-    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+
+        &_left {
+        }
+
+        &_right {
+            
+        }
+
     }
+
+    &__logo {
+        font-size: 24px;
+        color: #F9FAF8;
+        font-weight: 900;
+    }
+
+    &__list {
+        color: #E5E7EB;
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item {
+
+        }
+
+    &__main {
+        padding: 40px 15%;
+    
 
         &_left {
             width: 50%;
         }
 
         &_right {
-            display: flex;
             width: 50%;
         }
-
-    &__logo {
-    }
-
-    &__list {
-    }
-
-    &__item {
-    }
-
-    &__main {
-    }
-
-    &__main_left {
-    }
+}
 
     &__title {
         font-size: 48px;
-        font-weight: bolder;
+        font-weight: 900;
         color: #F9FAF8;
     }
 
     &__text {
         font-size: 18px;
         color: #E5E7EB;
+        font-weight: 400;
     }
 
-
-
-    &__main_right {
-    }
 
     &__image {
     }
 
-.button {
 }
+
+.button {
+    background-color: #3882F6;
+    height: 30px;
+    width: 200px;
+    border-radius: 6px;
 
     &__text {
+        font-weight: 500;
+        color: #F9FAF8;
+        
     }
 
+}    
+
 .information {
-}
 
     &__title {
     }
@@ -79,8 +101,9 @@
     &__text {
     }
 
-.quote {
 }
+
+.quote {
 
     &__text {
     }
@@ -88,8 +111,9 @@
     &__author {
     }
 
-.cta {
 }
+
+.cta {
 
     &__container {
     }
@@ -101,14 +125,17 @@
     }
 
     &__button {
-    }
+    
 
         &-text {
         }
+    }
+    }
 
 .footer {
     background-color: #1F2937;
-}
+
 
     &__copyright {
     }
+}
