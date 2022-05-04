@@ -5,10 +5,16 @@
 
 .header__menu-container {
   display: flex;
+  margin: auto;
+}
+
+.header__container_left {
+  width: 50%;
 }
 
 .header__container_right {
   display: flex;
+  width: 50%;
 }
 
 .header__title {
