@@ -108,6 +108,15 @@
   font-weight: 900;
 }
 
+.cta__container {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 12px;
+  width: 70%;
+  height: 130px;
+  margin: auto;
+}
+
 .footer {
   background-color: #1F2937;
 }

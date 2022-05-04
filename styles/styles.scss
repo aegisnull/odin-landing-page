@@ -145,6 +145,19 @@
 .cta {
 
     &__container {
+        background-color: #3882F6;
+        color: white;
+        border-radius: 12px;
+        width: 70%;
+        height: 130px;
+        margin: auto;
+        display: flex;
+
+        &_left {
+        }
+        
+        &_right {
+        }
     }
 
     &__title {
