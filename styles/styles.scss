@@ -1,108 +1,114 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 .header {
     background-color: #1F2937;
     height: 400px;
 }
 
-.header__menu-container {
+    &__menu-container {
     display: flex;
     margin: auto;
-}
+    }
 
-.header__container_left {
-    width: 50%;
-}
+        &_left {
+            width: 50%;
+        }
 
-.header__logo {
-}
+        &_right {
+            display: flex;
+            width: 50%;
+        }
 
-.header__container_right {
-    display: flex;
-    width: 50%;
-}
+    &__logo {
+    }
 
-.header__list {
-}
+    &__list {
+    }
 
-.header__item {
-}
+    &__item {
+    }
 
-.header__main {
-}
+    &__main {
+    }
 
-.header__main_left {
-}
+    &__main_left {
+    }
 
-.header__title {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
+    &__title {
+        font-size: 48px;
+        font-weight: bolder;
+        color: #F9FAF8;
+    }
 
-.header__text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
+    &__text {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
+
+
+    &__main_right {
+    }
+
+    &__image {
+    }
 
 .button {
 }
 
-.button__text {
-}
-
-.header__main_right {
-}
-
-.header__image {
-}
+    &__text {
+    }
 
 .information {
 }
 
-.information__title {
-}
+    &__title {
+    }
 
-.information__container {
-}
+    &__container {
+    }
 
-.information__card {
-}
+    &__card {
+    }
 
-.information__image {
-}
+    &__image {
+    }
 
-.information__text {
-}
+    &__text {
+    }
 
 .quote {
 }
 
-.quote__text {
-}
+    &__text {
+    }
 
-.quote__author {
-}
+    &__author {
+    }
 
 .cta {
 }
 
-.cta__container {
-}
+    &__container {
+    }
 
-.cta__title {
-}
+    &__title {
+    }
 
-.cta__text {
-}
+    &__text {
+    }
 
-.cta__button {
-}
+    &__button {
+    }
 
-.cta__button-text {
-}
+        &-text {
+        }
 
 .footer {
     background-color: #1F2937;
 }
 
-.footer__copyright {
-}
+    &__copyright {
+    }
