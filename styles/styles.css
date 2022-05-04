@@ -90,6 +90,24 @@
   color: #5D6570;
 }
 
+.quote {
+  background-color: #E5E7EB;
+  padding: 30px 22% 50px 22%;
+}
+
+.quote__text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+.quote__author {
+  text-align: end;
+  font-size: 25px;
+  font-weight: 900;
+}
+
 .footer {
   background-color: #1F2937;
 }
