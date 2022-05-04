@@ -4,14 +4,13 @@
 
 .header {
     background-color: #1F2937;
-    height: 400px;
 
 
     &__menu-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15%;
+    padding: 0 17%;
 
         &_left {
         }
@@ -40,13 +39,12 @@
         }
 
     &__main {
-        padding: 40px 15%;
+        padding: 40px 17%;
         display: flex;
         flex-direction: row;
     
 
         &_left {
-            width: 50%;
             
         }
 
@@ -75,9 +73,12 @@
 
 .button {
     background-color: #3882F6;
-    height: 30px;
-    width: 200px;
+    height: 35px;
+    width: 130px;
     border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &__text {
         font-weight: 500;
