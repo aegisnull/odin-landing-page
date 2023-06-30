@@ -1,5 +1,8 @@
 # The Odin Project: Landing Page Project
 
+![213898310-f0d73e8f-b109-4996-a4a3-81f77cf0026c](https://github.com/aegisnull/odin-landing-page/assets/27663011/6cd6ac23-bb35-4f02-bc07-ce34838c55b3)
+
+
 ### Description
 
 - Introducion
